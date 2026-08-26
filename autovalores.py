@@ -1,11 +1,11 @@
 import numpy as np
 
 # 1. Criando uma Matriz (representando a transformação de dados na IA)
-# Vamos usar uma matriz simples 2x2
+# usando matriz simples 2x2
 matriz_ia = np.array([[4, 2],
                       [1, 3]])
 
-# 2. A Mágica Matemática: Extraindo Autovalores e Autovetores
+# 2. Matemática: Extraindo Autovalores e Autovetores
 autovalores, autovetores = np.linalg.eig(matriz_ia)
 
 # 3. Exibindo os resultados
